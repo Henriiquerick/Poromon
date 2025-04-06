@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poromon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="world-screen" class="screen">
+            <div id="player"></div>
+            <div id="monsters"></div>
+        </div>
+        <div id="battle-screen" class="screen hidden">
+            <div id="player-monster"></div>
+            <div id="enemy-monster"></div>
+            <div id="battle-options">
+                <button id="attack-btn">Atacar</button>
+                <button id="capture-btn">Capturar</button>
+                <button id="run-btn">Fugir</button>
+            </div>
+        </div>
+        <div id="diary-screen" class="screen hidden">
+            <h2>Diário dos Boris</h2>
+            <div id="diary-list"></div>
+        </div>
+        <div id="controls">
+            <button id="left-btn">Esquerda</button>
+            <button id="right-btn">Direita</button>
+            <button id="diary-btn">Diário</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
